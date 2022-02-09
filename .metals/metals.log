@@ -1,0 +1,1500 @@
+[0m2021.12.06 14:15:34 INFO  Started: Metals version 0.10.9 in workspace 'C:\Users\onni\Documents\demo-effect\demo' for client Visual Studio Code 1.62.3.[0m
+[0m2021.12.06 14:15:34 INFO  time: initialize in 0.25s[0m
+[0m2021.12.06 14:15:34 WARN  Build server is not auto-connectable.[0m
+[0m2021.12.06 14:15:34 WARN  no build target for: C:\Users\onni\Documents\demo-effect\demo\src\main\scala\Main.scala[0m
+[0m2021.12.06 14:15:35 INFO  no build target: using presentation compiler with only scala-library: 3.1.0[0m
+[0m2021.12.06 14:15:37 INFO  time: code lens generation in 2.23s[0m
+[0m2021.12.06 14:15:41 INFO  running 'C:\Program Files\Java\jre1.8.0_301\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\onni\AppData\Local\Temp\metals2993698625709009094\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2021.12.06 14:15:41 INFO  [info] welcome to sbt 1.5.5 (Oracle Corporation Java 1.8.0_301)[0m
+[0m2021.12.06 14:15:43 INFO  [info] loading settings for project demo-build-build from metals.sbt ...[0m
+[0m2021.12.06 14:15:43 INFO  [info] loading project definition from C:\Users\onni\Documents\demo-effect\demo\project\project[0m
+[0m2021.12.06 14:15:45 INFO  [info] loading settings for project demo-build from metals.sbt ...[0m
+[0m2021.12.06 14:15:45 INFO  [info] loading project definition from C:\Users\onni\Documents\demo-effect\demo\project[0m
+[0m2021.12.06 14:15:46 INFO  [success] Generated .bloop\demo-build.json[0m
+[0m2021.12.06 14:15:46 INFO  [success] Total time: 1 s, completed 6.12.2021 14:15:46[0m
+[0m2021.12.06 14:15:46 INFO  [info] loading settings for project demo from build.sbt ...[0m
+[0m2021.12.06 14:15:46 INFO  [info] set current project to hello-world (in build file:/C:/Users/onni/Documents/demo-effect/demo/)[0m
+[0m2021.12.06 14:15:48 INFO  [success] Generated .bloop\demo-test.json[0m
+[0m2021.12.06 14:15:48 INFO  [success] Generated .bloop\demo.json[0m
+[0m2021.12.06 14:15:48 INFO  [success] Total time: 0 s, completed 6.12.2021 14:15:48[0m
+[0m2021.12.06 14:15:48 INFO  time: ran 'sbt bloopInstall' in 7.08s[0m
+[0m2021.12.06 14:15:48 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 25749'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading 2 projects from 'c:\Users\onni\Documents\demo-effect\demo\.bloop'...
+[0m[32m[D][0m Loading project from 'c:\Users\onni\Documents\demo-effect\demo\.bloop\demo.json'
+[0m[32m[D][0m Loading project from 'c:\Users\onni\Documents\demo-effect\demo\.bloop\demo-test.json'
+[0m[32m[D][0m Missing analysis file for project 'demo'
+[0m[32m[D][0m Missing analysis file for project 'demo-test'
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:25749...
+The server is listening for incoming connections at tcp://127.0.0.1:25749...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.12.06 14:15:48 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\onni\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.12.06 14:15:48 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 19641'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:19641...
+The server is listening for incoming connections at tcp://127.0.0.1:19641...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.12.06 14:15:48 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\onni\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.12.06 14:15:48 INFO  time: Connected to build server in 0.58s[0m
+[0m2021.12.06 14:15:48 INFO  Connected to Build server: Bloop v1.4.11[0m
+[0m2021.12.06 14:15:49 WARN  Could not find java sources in None. Java symbols will not be available.[0m
+[0m2021.12.06 14:15:50 INFO  time: indexed workspace in 1.7s[0m
+[0m2021.12.06 14:15:50 INFO  no build target: using presentation compiler with only scala-library: 2.13.3[0m
+[0m2021.12.06 14:16:56 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 14:16:58 INFO  time: compiled demo in 1.89s[0m
+joulukuuta 06, 2021 2:17:24 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12
+[0m2021.12.06 14:17:26 INFO  time: code lens generation in 1.76s[0m
+[0m2021.12.06 14:21:07 INFO  running 'C:\Program Files\Java\jre1.8.0_301\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\onni\AppData\Local\Temp\metals1553950424136987302\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2021.12.06 14:21:08 INFO  [info] welcome to sbt 1.5.5 (Oracle Corporation Java 1.8.0_301)[0m
+[0m2021.12.06 14:21:08 INFO  [info] loading settings for project demo-build-build from metals.sbt ...[0m
+[0m2021.12.06 14:21:08 INFO  [info] loading project definition from C:\Users\onni\Documents\demo-effect\demo\project\project[0m
+[0m2021.12.06 14:21:09 INFO  [info] loading settings for project demo-build from metals.sbt ...[0m
+[0m2021.12.06 14:21:09 INFO  [info] loading project definition from C:\Users\onni\Documents\demo-effect\demo\project[0m
+[0m2021.12.06 14:21:11 INFO  [success] Generated .bloop\demo-build.json[0m
+[0m2021.12.06 14:21:11 INFO  [success] Total time: 2 s, completed 6.12.2021 14:21:11[0m
+[0m2021.12.06 14:21:12 ERROR C:\Users\onni\Documents\demo-effect\demo\build.sbt:28: error: value %% is not a member of sbt.librarymanagement.DependencyBuilders.OrganizationArtifactName[0m
+[0m2021.12.06 14:21:12 ERROR libraryDependencies += "org.scala-lang.modules" %% "scala.swing" %% "scala-parser-combinators" % "1.1.2"[0m
+[0m2021.12.06 14:21:12 ERROR                                                                  ^[0m
+[0m2021.12.06 14:21:11 INFO  [error] Type error in expression[0m
+[0m2021.12.06 14:21:11 INFO  [warn] Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? (default: r)[0m
+[0m2021.12.06 14:21:12 INFO  time: ran 'sbt bloopInstall' in 4.65s[0m
+[0m2021.12.06 14:21:12 ERROR sbt command failed: C:\Program Files\Java\jre1.8.0_301\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\onni\AppData\Local\Temp\metals1553950424136987302\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall[0m
+[0m2021.12.06 14:21:12 INFO  Disconnecting from Bloop session...[0m
+[0m2021.12.06 14:21:12 INFO  Shut down connection with build server.[0m
+[0m2021.12.06 14:21:12 INFO  Shut down connection with build server.[0m
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+[0m2021.12.06 14:21:12 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 34516'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:34516...
+The server is listening for incoming connections at tcp://127.0.0.1:34516...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.12.06 14:21:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\onni\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.12.06 14:21:12 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 12642'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:12642...
+The server is listening for incoming connections at tcp://127.0.0.1:12642...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.12.06 14:21:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\onni\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.12.06 14:21:12 INFO  time: Connected to build server in 0.44s[0m
+[0m2021.12.06 14:21:12 INFO  Connected to Build server: Bloop v1.4.11[0m
+[0m2021.12.06 14:21:12 WARN  Could not find java sources in None. Java symbols will not be available.[0m
+[0m2021.12.06 14:21:12 INFO  time: indexed workspace in 0.39s[0m
+[0m2021.12.06 14:21:13 INFO  no build target: using presentation compiler with only scala-library: 2.13.3[0m
+[0m2021.12.06 14:22:20 INFO  running 'C:\Program Files\Java\jre1.8.0_301\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\onni\AppData\Local\Temp\metals6926542919830830698\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2021.12.06 14:22:21 INFO  time: ran 'sbt bloopInstall' in 0.63s[0m
+[0m2021.12.06 14:22:21 ERROR sbt command failed: C:\Program Files\Java\jre1.8.0_301\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\onni\AppData\Local\Temp\metals6926542919830830698\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall[0m
+[0m2021.12.06 14:22:20 INFO  Disconnecting from Bloop session...[0m
+[0m2021.12.06 14:22:21 INFO  Shut down connection with build server.[0m
+[0m2021.12.06 14:22:21 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+[0m2021.12.06 14:22:21 INFO  Attempting to connect to the build server...[0m
+[0m2021.12.06 14:22:21 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\onni\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.12.06 14:22:21 INFO  Attempting to connect to the build server...[0m
+[0m2021.12.06 14:22:22 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\onni\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.12.06 14:22:22 INFO  time: Connected to build server in 0.44s[0m
+[0m2021.12.06 14:22:22 INFO  Connected to Build server: Bloop v1.4.11[0m
+[0m2021.12.06 14:22:22 WARN  Could not find java sources in None. Java symbols will not be available.[0m
+[0m2021.12.06 14:22:22 INFO  time: indexed workspace in 0.37s[0m
+[0m2021.12.06 14:22:22 INFO  no build target: using presentation compiler with only scala-library: 2.13.3[0m
+[0m2021.12.06 14:22:33 INFO  running 'C:\Program Files\Java\jre1.8.0_301\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\onni\AppData\Local\Temp\metals1172343088537724936\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2021.12.06 14:22:33 INFO  time: ran 'sbt bloopInstall' in 0.62s[0m
+[0m2021.12.06 14:22:34 ERROR sbt command failed: C:\Program Files\Java\jre1.8.0_301\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\onni\AppData\Local\Temp\metals1172343088537724936\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall[0m
+[0m2021.12.06 14:22:34 INFO  Disconnecting from Bloop session...[0m
+[0m2021.12.06 14:22:33 INFO  Shut down connection with build server.[0m
+[0m2021.12.06 14:22:34 INFO  Shut down connection with build server.[0m
+[0m2021.12.06 14:22:34 INFO  Attempting to connect to the build server...[0m
+[0m2021.12.06 14:22:33 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\onni\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.12.06 14:22:33 INFO  Attempting to connect to the build server...[0m
+[0m2021.12.06 14:22:34 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\onni\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.12.06 14:22:34 INFO  time: Connected to build server in 0.46s[0m
+[0m2021.12.06 14:22:34 INFO  Connected to Build server: Bloop v1.4.11[0m
+[0m2021.12.06 14:22:34 WARN  Could not find java sources in None. Java symbols will not be available.[0m
+[0m2021.12.06 14:22:34 INFO  time: indexed workspace in 0.37s[0m
+[0m2021.12.06 14:22:35 INFO  no build target: using presentation compiler with only scala-library: 2.13.3[0m
+[0m2021.12.06 14:28:09 INFO  running 'C:\Program Files\Java\jre1.8.0_301\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\onni\AppData\Local\Temp\metals5165619910879392171\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2021.12.06 14:28:10 INFO  [info] welcome to sbt 1.5.5 (Oracle Corporation Java 1.8.0_301)[0m
+[0m2021.12.06 14:28:10 INFO  [info] loading settings for project demo-build-build from metals.sbt ...[0m
+[0m2021.12.06 14:28:10 INFO  [info] loading project definition from C:\Users\onni\Documents\demo-effect\demo\project\project[0m
+[0m2021.12.06 14:28:11 INFO  [info] loading settings for project demo-build from metals.sbt ...[0m
+[0m2021.12.06 14:28:11 INFO  [info] loading project definition from C:\Users\onni\Documents\demo-effect\demo\project[0m
+[0m2021.12.06 14:28:13 INFO  [success] Generated .bloop\demo-build.json[0m
+[0m2021.12.06 14:28:13 INFO  [success] Total time: 2 s, completed 6.12.2021 14:28:13[0m
+[0m2021.12.06 14:28:14 INFO  [info] loading settings for project demo from build.sbt ...[0m
+[0m2021.12.06 14:28:14 INFO  [info] set current project to hello-world (in build file:/C:/Users/onni/Documents/demo-effect/demo/)[0m
+[0m2021.12.06 14:28:14 INFO  [success] Generated .bloop\demo-test.json[0m
+[0m2021.12.06 14:28:14 INFO  [success] Generated .bloop\demo.json[0m
+[0m2021.12.06 14:28:14 INFO  [success] Total time: 0 s, completed 6.12.2021 14:28:15[0m
+[0m2021.12.06 14:28:15 INFO  time: ran 'sbt bloopInstall' in 6.09s[0m
+[0m2021.12.06 14:28:15 INFO  Disconnecting from Bloop session...[0m
+[0m2021.12.06 14:28:15 INFO  Shut down connection with build server.[0m
+[0m2021.12.06 14:28:15 INFO  Shut down connection with build server.[0m
+[0m2021.12.06 14:28:15 INFO  Attempting to connect to the build server...[0m
+[0m2021.12.06 14:28:15 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\onni\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.12.06 14:28:15 INFO  Attempting to connect to the build server...[0m
+[0m2021.12.06 14:28:15 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\onni\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.12.06 14:28:15 INFO  time: Connected to build server in 0.46s[0m
+[0m2021.12.06 14:28:15 INFO  Connected to Build server: Bloop v1.4.11[0m
+[0m2021.12.06 14:28:15 WARN  Could not find java sources in None. Java symbols will not be available.[0m
+[0m2021.12.06 14:28:15 INFO  time: indexed workspace in 0.35s[0m
+[0m2021.12.06 14:28:16 INFO  no build target: using presentation compiler with only scala-library: 2.13.3[0m
+[0m2021.12.06 14:29:38 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 14:29:38 INFO  time: compiled demo in 0.58s[0m
+[0m2021.12.06 14:31:09 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 14:31:09 INFO  time: compiled demo in 0.12s[0m
+[0m2021.12.06 14:31:19 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 14:31:19 INFO  time: compiled demo in 0.56s[0m
+[0m2021.12.06 14:34:39 INFO  Deduplicating compilation of demo from bsp client 'Metals 0.10.9' (since 6m 24.266s)[0m
+[0m2021.12.06 14:34:42 INFO  Deduplicating compilation of demo from bsp client 'Metals 0.10.9' (since 6m 26.329s)[0m
+[0m2021.12.06 14:36:18 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 14:36:18 INFO  time: compiled demo in 0.47s[0m
+[0m2021.12.06 14:36:28 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 14:36:28 INFO  time: compiled demo in 0.45s[0m
+[0m2021.12.06 14:36:30 INFO  Deduplicating compilation of demo from bsp client 'Metals 0.10.9' (since 8m 15.165s)[0m
+[0m2021.12.06 14:37:56 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 14:37:56 INFO  time: compiled demo in 0.38s[0m
+[0m2021.12.06 14:38:53 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 14:38:53 INFO  time: compiled demo in 81ms[0m
+[0m2021.12.06 14:38:58 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 14:38:58 INFO  time: compiled demo in 73ms[0m
+[0m2021.12.06 14:39:19 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 14:39:19 INFO  time: compiled demo in 0.39s[0m
+[0m2021.12.06 14:40:12 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 14:40:12 INFO  time: compiled demo in 0.36s[0m
+[0m2021.12.06 14:54:27 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 14:54:27 INFO  time: compiled demo in 90ms[0m
+[0m2021.12.06 14:55:08 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 14:55:08 INFO  time: compiled demo in 0.58s[0m
+[0m2021.12.06 14:56:08 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 14:56:08 INFO  time: compiled demo in 94ms[0m
+[0m2021.12.06 14:56:16 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 14:56:16 INFO  time: compiled demo in 0.47s[0m
+[0m2021.12.06 14:56:35 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 14:56:35 INFO  time: compiled demo in 0.47s[0m
+[0m2021.12.06 14:58:32 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 14:58:32 INFO  time: compiled demo in 0.51s[0m
+[0m2021.12.06 14:58:36 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 14:58:36 INFO  time: compiled demo in 0.45s[0m
+[0m2021.12.06 14:59:15 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 14:59:15 INFO  time: compiled demo in 0.46s[0m
+[0m2021.12.06 14:59:29 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 14:59:29 INFO  time: compiled demo in 67ms[0m
+[0m2021.12.06 14:59:40 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 14:59:40 INFO  time: compiled demo in 94ms[0m
+[0m2021.12.06 15:00:30 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 15:00:30 INFO  time: compiled demo in 0.46s[0m
+[0m2021.12.06 15:04:24 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 15:04:24 INFO  time: compiled demo in 0.43s[0m
+[0m2021.12.06 15:04:59 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 15:04:59 INFO  time: compiled demo in 0.43s[0m
+[0m2021.12.06 15:05:20 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 15:05:20 INFO  time: compiled demo in 0.45s[0m
+[0m2021.12.06 15:05:33 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 15:05:33 INFO  time: compiled demo in 0.47s[0m
+[0m2021.12.06 15:05:40 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 15:05:40 INFO  time: compiled demo in 0.46s[0m
+[0m2021.12.06 15:06:12 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 15:06:12 INFO  time: compiled demo in 0.56s[0m
+[0m2021.12.06 15:06:34 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 15:06:34 INFO  time: compiled demo in 0.42s[0m
+[0m2021.12.06 15:08:07 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 15:08:07 INFO  time: compiled demo in 0.42s[0m
+[0m2021.12.06 15:08:25 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 15:08:25 INFO  time: compiled demo in 0.13s[0m
+[0m2021.12.06 15:08:29 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 15:08:29 INFO  time: compiled demo in 74ms[0m
+[0m2021.12.06 15:09:02 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 15:09:02 INFO  time: compiled demo in 53ms[0m
+[0m2021.12.06 15:09:06 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 15:09:06 INFO  time: compiled demo in 0.45s[0m
+[0m2021.12.06 15:09:37 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 15:09:37 INFO  time: compiled demo in 0.42s[0m
+[0m2021.12.06 15:10:59 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 15:10:59 INFO  time: compiled demo in 0.43s[0m
+[0m2021.12.06 15:11:14 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 15:11:14 INFO  time: compiled demo in 0.43s[0m
+[0m2021.12.06 15:12:38 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 15:12:38 INFO  time: compiled demo in 0.46s[0m
+[0m2021.12.06 15:13:34 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 15:13:34 INFO  time: compiled demo in 51ms[0m
+[0m2021.12.06 15:13:42 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 15:13:42 INFO  time: compiled demo in 51ms[0m
+[0m2021.12.06 15:13:49 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 15:13:49 INFO  time: compiled demo in 71ms[0m
+[0m2021.12.06 15:13:52 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 15:13:52 INFO  time: compiled demo in 73ms[0m
+[0m2021.12.06 15:14:44 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 15:14:44 INFO  time: compiled demo in 73ms[0m
+[0m2021.12.06 15:14:51 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 15:14:51 INFO  time: compiled demo in 73ms[0m
+[0m2021.12.06 15:14:54 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 15:14:54 INFO  time: compiled demo in 72ms[0m
+[0m2021.12.06 15:15:14 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 15:15:14 INFO  time: compiled demo in 79ms[0m
+[0m2021.12.06 15:16:01 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 15:16:01 INFO  time: compiled demo in 88ms[0m
+[0m2021.12.06 15:16:29 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 15:16:29 INFO  time: compiled demo in 0.44s[0m
+[0m2021.12.06 15:16:35 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 15:16:35 INFO  time: compiled demo in 0.45s[0m
+[0m2021.12.06 15:19:27 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 15:19:27 INFO  time: compiled demo in 52ms[0m
+[0m2021.12.06 15:19:43 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 15:19:43 INFO  time: compiled demo in 51ms[0m
+[0m2021.12.06 15:19:46 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 15:19:46 INFO  time: compiled demo in 0.46s[0m
+[0m2021.12.06 15:19:59 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 15:19:59 INFO  time: compiled demo in 0.45s[0m
+[0m2021.12.06 15:20:22 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 15:20:22 INFO  time: compiled demo in 0.47s[0m
+[0m2021.12.06 15:21:15 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 15:21:15 INFO  time: compiled demo in 0.46s[0m
+[0m2021.12.06 15:21:32 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 15:21:32 INFO  time: compiled demo in 0.48s[0m
+[0m2021.12.06 15:21:45 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 15:21:45 INFO  time: compiled demo in 0.46s[0m
+[0m2021.12.06 15:22:05 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 15:22:05 INFO  time: compiled demo in 0.61s[0m
+[0m2021.12.06 15:22:29 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 15:22:29 INFO  time: compiled demo in 74ms[0m
+[0m2021.12.06 15:22:47 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 15:22:47 INFO  time: compiled demo in 67ms[0m
+[0m2021.12.06 15:23:03 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 15:23:03 INFO  time: compiled demo in 0.43s[0m
+[0m2021.12.06 15:23:15 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 15:23:15 INFO  time: compiled demo in 0.45s[0m
+[0m2021.12.06 15:23:23 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 15:23:23 INFO  time: compiled demo in 0.44s[0m
+[0m2021.12.06 15:25:10 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 15:25:10 INFO  time: compiled demo in 0.42s[0m
+[0m2021.12.06 15:25:21 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 15:25:21 INFO  time: compiled demo in 0.42s[0m
+[0m2021.12.06 15:25:37 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 15:25:37 INFO  time: compiled demo in 0.42s[0m
+[0m2021.12.06 15:26:19 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 15:26:19 INFO  time: compiled demo in 0.52s[0m
+[0m2021.12.06 15:26:36 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 15:26:36 INFO  time: compiled demo in 0.48s[0m
+[0m2021.12.06 15:26:45 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 15:26:45 INFO  time: compiled demo in 0.48s[0m
+[0m2021.12.06 15:27:19 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 15:27:19 INFO  time: compiled demo in 0.45s[0m
+[0m2021.12.06 15:28:35 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 15:28:35 INFO  time: compiled demo in 0.48s[0m
+[0m2021.12.06 15:29:07 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 15:29:07 INFO  time: compiled demo in 0.47s[0m
+[0m2021.12.06 15:29:35 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 15:29:35 INFO  time: compiled demo in 0.48s[0m
+[0m2021.12.06 15:30:35 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 15:30:35 INFO  time: compiled demo in 0.29s[0m
+[0m2021.12.06 15:32:15 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 15:32:15 INFO  time: compiled demo in 0.33s[0m
+[0m2021.12.06 15:32:25 INFO  compiling demo (3 scala sources)[0m
+[0m2021.12.06 15:32:25 INFO  time: compiled demo in 0.5s[0m
+[0m2021.12.06 15:33:18 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 15:33:18 INFO  time: compiled demo in 0.33s[0m
+[0m2021.12.06 15:34:27 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 15:34:27 INFO  time: compiled demo in 0.34s[0m
+[0m2021.12.06 15:35:26 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 15:35:26 INFO  time: compiled demo in 0.38s[0m
+[0m2021.12.06 15:36:32 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 15:36:32 INFO  time: compiled demo in 0.37s[0m
+[0m2021.12.06 15:42:34 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 15:42:34 INFO  time: compiled demo in 0.56s[0m
+[0m2021.12.06 15:44:20 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 15:44:20 INFO  time: compiled demo in 0.4s[0m
+[0m2021.12.06 15:56:56 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 15:56:56 INFO  time: compiled demo in 0.3s[0m
+[0m2021.12.06 15:59:56 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 15:59:56 INFO  time: compiled demo in 58ms[0m
+[0m2021.12.06 16:00:01 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 16:00:01 INFO  time: compiled demo in 53ms[0m
+[0m2021.12.06 16:00:35 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 16:00:35 INFO  time: compiled demo in 0.35s[0m
+[0m2021.12.06 16:06:08 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 16:06:08 INFO  time: compiled demo in 0.5s[0m
+[0m2021.12.06 16:06:28 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 16:06:28 INFO  time: compiled demo in 0.54s[0m
+[0m2021.12.06 16:07:37 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 16:07:37 INFO  time: compiled demo in 51ms[0m
+[0m2021.12.06 16:09:06 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 16:09:06 INFO  time: compiled demo in 0.44s[0m
+[0m2021.12.06 16:10:01 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 16:10:01 INFO  time: compiled demo in 0.41s[0m
+[0m2021.12.06 16:10:01 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 16:10:01 INFO  time: compiled demo in 35ms[0m
+[0m2021.12.06 16:10:04 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 16:10:04 INFO  time: compiled demo in 0.39s[0m
+[0m2021.12.06 16:10:04 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 16:10:04 INFO  time: compiled demo in 34ms[0m
+[0m2021.12.06 16:10:07 INFO  compiling demo (2 scala sources)[0m
+[0m2021.12.06 16:10:07 INFO  time: compiled demo in 0.49s[0m
+[0m2021.12.06 16:10:46 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 16:10:46 INFO  time: compiled demo in 78ms[0m
+[0m2021.12.06 16:10:56 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 16:10:56 INFO  time: compiled demo in 0.45s[0m
+[0m2021.12.06 16:15:18 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 16:15:18 INFO  time: compiled demo in 0.45s[0m
+[0m2021.12.06 16:15:44 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 16:15:44 INFO  time: compiled demo in 51ms[0m
+[0m2021.12.06 16:15:56 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 16:15:56 INFO  time: compiled demo in 50ms[0m
+[0m2021.12.06 16:16:05 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 16:16:05 INFO  time: compiled demo in 0.46s[0m
+[0m2021.12.06 16:16:48 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 16:16:48 INFO  time: compiled demo in 78ms[0m
+[0m2021.12.06 16:17:06 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 16:17:06 INFO  time: compiled demo in 66ms[0m
+[0m2021.12.06 16:17:09 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 16:17:09 INFO  time: compiled demo in 0.45s[0m
+[0m2021.12.06 16:17:42 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 16:17:42 INFO  time: compiled demo in 0.46s[0m
+[0m2021.12.06 16:19:48 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 16:19:48 INFO  time: compiled demo in 0.4s[0m
+[0m2021.12.06 16:19:48 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 16:19:48 INFO  time: compiled demo in 0.12s[0m
+[0m2021.12.06 16:20:10 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 16:20:10 INFO  time: compiled demo in 0.38s[0m
+[0m2021.12.06 16:20:45 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 16:20:45 INFO  time: compiled demo in 0.49s[0m
+[0m2021.12.06 16:21:09 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 16:21:09 INFO  time: compiled demo in 0.48s[0m
+[0m2021.12.06 16:21:31 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 16:21:31 INFO  time: compiled demo in 0.48s[0m
+[0m2021.12.06 16:22:29 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 16:22:29 INFO  time: compiled demo in 0.4s[0m
+[0m2021.12.06 16:24:59 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 16:24:59 INFO  time: compiled demo in 0.13s[0m
+[0m2021.12.06 16:25:13 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 16:25:13 INFO  time: compiled demo in 0.49s[0m
+[0m2021.12.06 16:25:21 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 16:25:21 INFO  time: compiled demo in 0.49s[0m
+[0m2021.12.06 16:25:27 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 16:25:27 INFO  time: compiled demo in 0.49s[0m
+[0m2021.12.06 16:25:36 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 16:25:36 INFO  time: compiled demo in 0.67s[0m
+[0m2021.12.06 16:27:50 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 16:27:50 INFO  time: compiled demo in 0.38s[0m
+[0m2021.12.06 16:28:03 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 16:28:03 INFO  time: compiled demo in 0.37s[0m
+[0m2021.12.06 16:28:40 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 16:28:40 INFO  time: compiled demo in 0.47s[0m
+[0m2021.12.06 16:30:00 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 16:30:00 INFO  time: compiled demo in 0.49s[0m
+[0m2021.12.06 16:30:24 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 16:30:24 INFO  time: compiled demo in 0.47s[0m
+[0m2021.12.06 16:34:31 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 16:34:31 INFO  time: compiled demo in 0.39s[0m
+[0m2021.12.06 16:36:36 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 16:36:36 INFO  time: compiled demo in 0.48s[0m
+[0m2021.12.06 16:37:14 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 16:37:14 INFO  time: compiled demo in 0.4s[0m
+[0m2021.12.06 16:37:28 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 16:37:28 INFO  time: compiled demo in 0.38s[0m
+[0m2021.12.06 16:37:59 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 16:37:59 INFO  time: compiled demo in 0.39s[0m
+[0m2021.12.06 16:37:59 INFO  compiling demo (2 scala sources)[0m
+[0m2021.12.06 16:37:59 INFO  time: compiled demo in 0.19s[0m
+[0m2021.12.06 16:38:53 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 16:38:53 INFO  time: compiled demo in 0.41s[0m
+[0m2021.12.06 16:39:40 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 16:39:40 INFO  time: compiled demo in 0.4s[0m
+[0m2021.12.06 16:39:54 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 16:39:54 INFO  time: compiled demo in 0.4s[0m
+[0m2021.12.06 16:42:11 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 16:42:11 INFO  time: compiled demo in 0.45s[0m
+[0m2021.12.06 16:42:19 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 16:42:19 INFO  time: compiled demo in 0.48s[0m
+[0m2021.12.06 16:45:35 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 16:45:35 INFO  time: compiled demo in 52ms[0m
+[0m2021.12.06 16:47:58 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 16:47:58 INFO  time: compiled demo in 0.52s[0m
+[0m2021.12.06 16:48:25 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 16:48:25 INFO  time: compiled demo in 0.42s[0m
+[0m2021.12.06 16:49:02 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 16:49:02 INFO  time: compiled demo in 0.43s[0m
+[0m2021.12.06 16:49:46 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 16:49:46 INFO  time: compiled demo in 0.45s[0m
+[0m2021.12.06 16:49:52 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 16:49:52 INFO  time: compiled demo in 0.43s[0m
+[0m2021.12.06 16:50:23 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 16:50:23 INFO  time: compiled demo in 0.45s[0m
+[0m2021.12.06 16:52:45 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 16:52:45 INFO  time: compiled demo in 0.51s[0m
+[0m2021.12.06 16:52:58 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 16:52:58 INFO  time: compiled demo in 0.5s[0m
+[0m2021.12.06 16:53:42 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 16:53:42 INFO  time: compiled demo in 0.45s[0m
+[0m2021.12.06 16:53:42 INFO  compiling demo (4 scala sources)[0m
+[0m2021.12.06 16:53:42 INFO  time: compiled demo in 0.27s[0m
+[0m2021.12.06 16:54:08 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 16:54:08 INFO  time: compiled demo in 0.53s[0m
+[0m2021.12.06 16:54:18 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 16:54:18 INFO  time: compiled demo in 0.71s[0m
+[0m2021.12.06 16:55:36 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 16:55:36 INFO  time: compiled demo in 0.51s[0m
+[0m2021.12.06 16:56:12 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 16:56:12 INFO  time: compiled demo in 0.5s[0m
+[0m2021.12.06 16:56:24 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 16:56:24 INFO  time: compiled demo in 0.47s[0m
+[0m2021.12.06 16:56:34 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 16:56:34 INFO  time: compiled demo in 0.5s[0m
+[0m2021.12.06 16:56:59 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 16:56:59 INFO  time: compiled demo in 0.47s[0m
+[0m2021.12.06 16:59:39 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 16:59:39 INFO  time: compiled demo in 0.43s[0m
+[0m2021.12.06 17:00:39 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 17:00:39 INFO  time: compiled demo in 0.43s[0m
+[0m2021.12.06 17:01:29 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 17:01:29 INFO  time: compiled demo in 0.48s[0m
+[0m2021.12.06 17:01:38 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 17:01:38 INFO  time: compiled demo in 0.48s[0m
+[0m2021.12.06 17:01:42 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 17:01:42 INFO  time: compiled demo in 0.49s[0m
+[0m2021.12.06 17:03:58 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 17:03:58 INFO  time: compiled demo in 0.33s[0m
+[0m2021.12.06 17:04:10 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 17:04:10 INFO  time: compiled demo in 0.49s[0m
+[0m2021.12.06 17:04:22 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 17:04:22 INFO  time: compiled demo in 0.48s[0m
+[0m2021.12.06 17:04:59 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 17:04:59 INFO  time: compiled demo in 0.36s[0m
+[0m2021.12.06 17:05:08 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 17:05:08 INFO  time: compiled demo in 0.52s[0m
+[0m2021.12.06 17:05:52 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 17:05:52 INFO  time: compiled demo in 0.49s[0m
+[0m2021.12.06 17:06:09 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 17:06:09 INFO  time: compiled demo in 0.49s[0m
+[0m2021.12.06 17:06:27 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 17:06:27 INFO  time: compiled demo in 0.5s[0m
+[0m2021.12.06 17:06:38 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 17:06:38 INFO  time: compiled demo in 0.51s[0m
+[0m2021.12.06 17:06:51 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 17:06:51 INFO  time: compiled demo in 0.51s[0m
+[0m2021.12.06 17:07:13 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 17:07:13 INFO  time: compiled demo in 0.49s[0m
+[0m2021.12.06 17:07:46 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 17:07:46 INFO  time: compiled demo in 0.49s[0m
+[0m2021.12.06 17:08:03 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 17:08:03 INFO  time: compiled demo in 0.5s[0m
+[0m2021.12.06 17:08:38 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 17:08:38 INFO  time: compiled demo in 0.51s[0m
+[0m2021.12.06 17:08:47 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 17:08:47 INFO  time: compiled demo in 0.49s[0m
+[0m2021.12.06 17:08:59 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 17:08:59 INFO  time: compiled demo in 0.52s[0m
+[0m2021.12.06 17:09:03 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 17:09:03 INFO  time: compiled demo in 0.51s[0m
+[0m2021.12.06 17:09:12 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 17:09:12 INFO  time: compiled demo in 0.52s[0m
+[0m2021.12.06 17:09:24 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 17:09:24 INFO  time: compiled demo in 0.51s[0m
+[0m2021.12.06 17:10:13 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 17:10:13 INFO  time: compiled demo in 0.66s[0m
+[0m2021.12.06 17:10:13 INFO  compiling demo (4 scala sources)[0m
+[0m2021.12.06 17:10:13 INFO  time: compiled demo in 67ms[0m
+[0m2021.12.06 17:10:20 INFO  compiling demo (2 scala sources)[0m
+[0m2021.12.06 17:10:20 INFO  time: compiled demo in 0.57s[0m
+[0m2021.12.06 17:10:20 INFO  compiling demo (4 scala sources)[0m
+[0m2021.12.06 17:10:20 INFO  time: compiled demo in 51ms[0m
+[0m2021.12.06 17:10:22 INFO  compiling demo (2 scala sources)[0m
+[0m2021.12.06 17:10:22 INFO  time: compiled demo in 0.54s[0m
+[0m2021.12.06 17:10:22 INFO  compiling demo (4 scala sources)[0m
+[0m2021.12.06 17:10:22 INFO  time: compiled demo in 47ms[0m
+[0m2021.12.06 17:10:28 INFO  compiling demo (4 scala sources)[0m
+[0m2021.12.06 17:10:28 INFO  time: compiled demo in 82ms[0m
+[0m2021.12.06 17:10:36 INFO  compiling demo (4 scala sources)[0m
+[0m2021.12.06 17:10:36 INFO  time: compiled demo in 0.6s[0m
+[0m2021.12.06 17:11:43 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 17:11:43 INFO  time: compiled demo in 0.42s[0m
+[0m2021.12.06 17:13:20 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 17:13:20 INFO  time: compiled demo in 0.48s[0m
+[0m2021.12.06 17:13:45 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 17:13:45 INFO  time: compiled demo in 0.45s[0m
+[0m2021.12.06 17:14:44 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 17:14:44 INFO  time: compiled demo in 74ms[0m
+[0m2021.12.06 17:15:17 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 17:15:17 INFO  time: compiled demo in 0.52s[0m
+[0m2021.12.06 17:15:32 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 17:15:32 INFO  time: compiled demo in 0.43s[0m
+[0m2021.12.06 17:15:43 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 17:15:43 INFO  time: compiled demo in 0.44s[0m
+[0m2021.12.06 18:01:21 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 18:01:21 INFO  time: compiled demo in 0.33s[0m
+[0m2021.12.06 18:02:07 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 18:02:07 INFO  time: compiled demo in 0.31s[0m
+[0m2021.12.06 18:02:24 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 18:02:24 INFO  time: compiled demo in 0.34s[0m
+[0m2021.12.06 18:02:40 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 18:02:40 INFO  time: compiled demo in 0.34s[0m
+[0m2021.12.06 18:02:49 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 18:02:49 INFO  time: compiled demo in 58ms[0m
+[0m2021.12.06 18:02:51 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 18:02:51 INFO  time: compiled demo in 0.35s[0m
+[0m2021.12.06 18:04:56 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 18:04:56 INFO  time: compiled demo in 0.37s[0m
+[0m2021.12.06 18:05:03 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 18:05:03 INFO  time: compiled demo in 0.37s[0m
+[0m2021.12.06 18:10:55 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 18:10:55 INFO  time: compiled demo in 0.41s[0m
+[0m2021.12.06 18:12:52 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 18:12:52 INFO  time: compiled demo in 78ms[0m
+[0m2021.12.06 18:13:04 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 18:13:04 INFO  time: compiled demo in 0.44s[0m
+[0m2021.12.06 18:13:14 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 18:13:14 INFO  time: compiled demo in 0.42s[0m
+[0m2021.12.06 18:14:00 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 18:14:00 INFO  time: compiled demo in 0.43s[0m
+[0m2021.12.06 18:14:35 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 18:14:35 INFO  time: compiled demo in 0.45s[0m
+[0m2021.12.06 18:14:43 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 18:14:43 INFO  time: compiled demo in 0.44s[0m
+[0m2021.12.06 18:15:34 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 18:15:34 INFO  time: compiled demo in 0.45s[0m
+[0m2021.12.06 18:15:51 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 18:15:51 INFO  time: compiled demo in 0.44s[0m
+[0m2021.12.06 18:15:59 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 18:15:59 INFO  time: compiled demo in 0.46s[0m
+[0m2021.12.06 18:16:35 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 18:16:35 INFO  time: compiled demo in 0.45s[0m
+[0m2021.12.06 18:18:33 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 18:18:33 INFO  time: compiled demo in 0.46s[0m
+[0m2021.12.06 18:18:33 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 18:18:33 INFO  time: compiled demo in 0.17s[0m
+[0m2021.12.06 18:22:22 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 18:22:22 INFO  time: compiled demo in 71ms[0m
+[0m2021.12.06 18:22:27 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 18:22:27 INFO  time: compiled demo in 72ms[0m
+[0m2021.12.06 18:22:52 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 18:22:52 INFO  time: compiled demo in 67ms[0m
+[0m2021.12.06 18:23:18 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 18:23:18 INFO  time: compiled demo in 0.48s[0m
+[0m2021.12.06 18:23:30 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 18:23:30 INFO  time: compiled demo in 0.48s[0m
+[0m2021.12.06 18:24:38 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 18:24:38 INFO  time: compiled demo in 0.5s[0m
+[0m2021.12.06 18:24:38 INFO  compiling demo (2 scala sources)[0m
+[0m2021.12.06 18:24:38 INFO  time: compiled demo in 0.19s[0m
+[0m2021.12.06 18:25:07 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 18:25:07 INFO  time: compiled demo in 0.51s[0m
+[0m2021.12.06 18:26:24 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 18:26:24 INFO  time: compiled demo in 50ms[0m
+[0m2021.12.06 18:27:46 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 18:27:46 INFO  time: compiled demo in 0.72s[0m
+[0m2021.12.06 18:27:54 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 18:27:54 INFO  time: compiled demo in 0.61s[0m
+[0m2021.12.06 18:28:35 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 18:28:35 INFO  time: compiled demo in 0.45s[0m
+[0m2021.12.06 18:29:35 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 18:29:35 INFO  time: compiled demo in 0.46s[0m
+[0m2021.12.06 18:29:54 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 18:29:54 INFO  time: compiled demo in 0.45s[0m
+[0m2021.12.06 18:30:21 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 18:30:21 INFO  time: compiled demo in 0.45s[0m
+[0m2021.12.06 18:30:33 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 18:30:33 INFO  time: compiled demo in 0.45s[0m
+[0m2021.12.06 18:30:43 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 18:30:43 INFO  time: compiled demo in 0.45s[0m
+[0m2021.12.06 18:30:59 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 18:30:59 INFO  time: compiled demo in 0.47s[0m
+[0m2021.12.06 18:31:11 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 18:31:11 INFO  time: compiled demo in 76ms[0m
+[0m2021.12.06 18:31:13 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 18:31:13 INFO  time: compiled demo in 0.47s[0m
+[0m2021.12.06 18:32:31 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 18:32:31 INFO  time: compiled demo in 0.45s[0m
+[0m2021.12.06 18:33:19 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 18:33:19 INFO  time: compiled demo in 0.46s[0m
+[0m2021.12.06 18:33:38 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 18:33:38 INFO  time: compiled demo in 0.5s[0m
+[0m2021.12.06 18:33:55 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 18:33:55 INFO  time: compiled demo in 0.51s[0m
+[0m2021.12.06 18:34:09 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 18:34:09 INFO  time: compiled demo in 0.51s[0m
+[0m2021.12.06 18:34:17 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 18:34:17 INFO  time: compiled demo in 0.52s[0m
+[0m2021.12.06 18:34:27 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 18:34:27 INFO  time: compiled demo in 0.5s[0m
+[0m2021.12.06 18:34:35 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 18:34:35 INFO  time: compiled demo in 0.51s[0m
+[0m2021.12.06 18:34:52 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 18:34:52 INFO  time: compiled demo in 0.49s[0m
+[0m2021.12.06 18:35:09 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 18:35:09 INFO  time: compiled demo in 0.65s[0m
+[0m2021.12.06 18:35:29 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 18:35:29 INFO  time: compiled demo in 0.5s[0m
+[0m2021.12.06 18:35:31 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 18:35:31 INFO  time: compiled demo in 0.49s[0m
+[0m2021.12.06 18:35:40 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 18:35:40 INFO  time: compiled demo in 0.47s[0m
+[0m2021.12.06 18:35:59 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 18:35:59 INFO  time: compiled demo in 0.47s[0m
+[0m2021.12.06 18:36:27 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 18:36:27 INFO  time: compiled demo in 0.46s[0m
+[0m2021.12.06 18:36:37 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 18:36:37 INFO  time: compiled demo in 0.5s[0m
+[0m2021.12.06 18:36:47 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 18:36:47 INFO  time: compiled demo in 0.63s[0m
+[0m2021.12.06 18:37:12 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 18:37:12 INFO  time: compiled demo in 0.46s[0m
+[0m2021.12.06 18:37:35 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 18:37:35 INFO  time: compiled demo in 0.47s[0m
+[0m2021.12.06 18:37:51 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 18:37:51 INFO  time: compiled demo in 0.46s[0m
+[0m2021.12.06 18:38:08 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 18:38:08 INFO  time: compiled demo in 0.47s[0m
+[0m2021.12.06 18:38:18 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 18:38:18 INFO  time: compiled demo in 0.46s[0m
+[0m2021.12.06 18:38:55 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 18:38:55 INFO  time: compiled demo in 0.48s[0m
+[0m2021.12.06 18:39:04 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 18:39:04 INFO  time: compiled demo in 0.48s[0m
+[0m2021.12.06 18:39:16 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 18:39:16 INFO  time: compiled demo in 0.48s[0m
+[0m2021.12.06 18:39:21 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 18:39:21 INFO  time: compiled demo in 0.46s[0m
+[0m2021.12.06 18:39:55 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 18:39:55 INFO  time: compiled demo in 0.61s[0m
+[0m2021.12.06 18:40:09 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 18:40:09 INFO  time: compiled demo in 0.47s[0m
+[0m2021.12.06 18:42:01 WARN  no build target for: C:\Users\onni\Documents\demo-effect\demo\ColourFunctions.scala[0m
+[0m2021.12.06 18:42:53 WARN  no build target for: C:\Users\onni\Documents\demo-effect\demo\ColourFunctions.scala[0m
+[0m2021.12.06 18:42:53 INFO  skipping build import with status 'Installed'[0m
+[0m2021.12.06 18:43:40 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 18:43:40 INFO  time: compiled demo in 66ms[0m
+[0m2021.12.06 18:43:51 INFO  compiling demo (2 scala sources)[0m
+[0m2021.12.06 18:43:51 INFO  time: compiled demo in 79ms[0m
+[0m2021.12.06 18:43:53 INFO  compiling demo (2 scala sources)[0m
+[0m2021.12.06 18:43:53 INFO  time: compiled demo in 68ms[0m
+[0m2021.12.06 18:44:21 INFO  compiling demo (2 scala sources)[0m
+[0m2021.12.06 18:44:21 INFO  time: compiled demo in 0.51s[0m
+[0m2021.12.06 18:44:54 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 18:44:54 INFO  time: compiled demo in 68ms[0m
+[0m2021.12.06 18:45:16 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 18:45:16 INFO  time: compiled demo in 0.47s[0m
+[0m2021.12.06 18:45:23 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 18:45:23 INFO  time: compiled demo in 0.46s[0m
+[0m2021.12.06 18:50:27 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 18:50:27 INFO  time: compiled demo in 0.49s[0m
+[0m2021.12.06 18:50:41 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 18:50:41 INFO  time: compiled demo in 0.48s[0m
+[0m2021.12.06 18:52:03 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 18:52:03 INFO  time: compiled demo in 0.49s[0m
+[0m2021.12.06 18:52:24 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 18:52:24 INFO  time: compiled demo in 0.48s[0m
+[0m2021.12.06 18:52:46 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 18:52:46 INFO  time: compiled demo in 0.48s[0m
+[0m2021.12.06 18:53:49 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 18:53:49 INFO  time: compiled demo in 0.66s[0m
+[0m2021.12.06 18:54:01 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 18:54:01 INFO  time: compiled demo in 0.5s[0m
+[0m2021.12.06 18:54:06 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 18:54:06 INFO  time: compiled demo in 0.49s[0m
+[0m2021.12.06 18:54:19 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 18:54:19 INFO  time: compiled demo in 0.49s[0m
+[0m2021.12.06 18:54:31 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.06 18:54:31 INFO  time: compiled demo in 0.48s[0m
+[0m2021.12.06 20:00:40 INFO  shutting down Metals[0m
+[0m2021.12.06 20:00:40 INFO  Shut down connection with build server.[0m
+[0m2021.12.06 20:00:40 INFO  Shut down connection with build server.[0m
+[0m2021.12.07 12:08:43 INFO  Started: Metals version 0.10.9 in workspace 'C:\Users\onni\Documents\demo-effect\demo' for client Visual Studio Code 1.62.3.[0m
+[0m2021.12.07 12:08:43 INFO  time: initialize in 0.27s[0m
+[0m2021.12.07 12:08:43 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+[0m2021.12.07 12:08:43 INFO  skipping build import with status 'Installed'[0m
+Opening a bsp server connection with 'bsp --protocol tcp --port 11941'...
+Waiting for the bsp connection to come up...
+[0m2021.12.07 12:08:45 INFO  no build target: using presentation compiler with only scala-library: 3.1.0[0m
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+[0m2021.12.07 12:08:47 INFO  time: code lens generation in 3.34s[0m
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.11...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from 'c:\Users\onni\Documents\demo-effect\demo\.bloop'...
+[0m[32m[D][0m Loading project from 'c:\Users\onni\Documents\demo-effect\demo\.bloop\demo.json'
+[0m[32m[D][0m Loading project from 'c:\Users\onni\Documents\demo-effect\demo\.bloop\demo-test.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.3.
+[0m[32m[D][0m   => C:\Users\onni\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.3.1\jna-5.3.1.jar
+[0m[32m[D][0m   => C:\Users\onni\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline\3.15.0\jline-3.15.0.jar
+[0m[32m[D][0m   => C:\Users\onni\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.3\scala-compiler-2.13.3.jar
+[0m[32m[D][0m   => C:\Users\onni\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.3\scala-library-2.13.3.jar
+[0m[32m[D][0m   => C:\Users\onni\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.3\scala-reflect-2.13.3.jar
+[0m[32m[D][0m Configured Scala SemanticDB in projects 'demo-test', 'demo'
+[0m[32m[D][0m Missing analysis file for project 'demo-test'
+[0m[32m[D][0m Loading previous analysis for 'demo' from 'C:\Users\onni\Documents\demo-effect\demo\target\streams\compile\bloopAnalysisOut\_global\streams\inc_compile_2.13.zip'.
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:11941...
+The server is listening for incoming connections at tcp://127.0.0.1:11941...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.12.07 12:08:48 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\onni\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.12.07 12:08:48 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 17931'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:17931...
+The server is listening for incoming connections at tcp://127.0.0.1:17931...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.12.07 12:08:49 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\onni\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.12.07 12:08:49 INFO  time: Connected to build server in 5.33s[0m
+[0m2021.12.07 12:08:49 INFO  Connected to Build server: Bloop v1.4.11[0m
+[0m2021.12.07 12:08:49 WARN  Could not find java sources in None. Java symbols will not be available.[0m
+[0m2021.12.07 12:08:49 INFO  time: indexed workspace in 0.9s[0m
+[0m2021.12.07 12:08:50 INFO  no build target: using presentation compiler with only scala-library: 2.13.3[0m
+[0m2021.12.07 12:20:13 WARN  no build target for: C:\Users\onni\Documents\demo-effect\demo\Depth.scala[0m
+joulukuuta 07, 2021 12:20:13 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 23
+[0m2021.12.07 12:20:37 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 12:20:39 INFO  time: compiled demo in 1.85s[0m
+[0m2021.12.07 12:21:04 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 12:21:04 INFO  time: compiled demo in 0.48s[0m
+joulukuuta 07, 2021 12:22:02 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 95
+[0m2021.12.07 12:23:36 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 12:23:36 INFO  time: compiled demo in 0.58s[0m
+joulukuuta 07, 2021 12:23:49 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 477
+joulukuuta 07, 2021 12:23:55 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 487
+joulukuuta 07, 2021 12:25:16 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 629
+joulukuuta 07, 2021 12:25:54 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 639
+joulukuuta 07, 2021 12:26:28 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 696
+joulukuuta 07, 2021 12:29:29 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 876
+joulukuuta 07, 2021 1:38:05 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 909
+[0m2021.12.07 13:38:09 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 13:38:09 INFO  time: compiled demo in 0.23s[0m
+joulukuuta 07, 2021 1:38:10 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 914
+[0m2021.12.07 13:38:11 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 13:38:11 INFO  time: compiled demo in 0.17s[0m
+[0m2021.12.07 13:38:15 INFO  compiling demo (2 scala sources)[0m
+[0m2021.12.07 13:38:15 INFO  time: compiled demo in 0.15s[0m
+[0m2021.12.07 14:00:12 INFO  compiling demo (2 scala sources)[0m
+[0m2021.12.07 14:00:12 INFO  time: compiled demo in 0.71s[0m
+joulukuuta 07, 2021 2:01:12 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1336
+joulukuuta 07, 2021 2:01:34 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1342
+joulukuuta 07, 2021 2:01:39 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1347
+[0m2021.12.07 14:02:31 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 14:02:31 INFO  time: compiled demo in 0.76s[0m
+[0m2021.12.07 14:03:20 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 14:03:20 INFO  time: compiled demo in 0.64s[0m
+[0m2021.12.07 14:03:55 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 14:03:55 INFO  time: compiled demo in 0.61s[0m
+joulukuuta 07, 2021 2:05:49 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1510
+[0m2021.12.07 14:06:44 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 14:06:44 INFO  time: compiled demo in 0.58s[0m
+joulukuuta 07, 2021 2:06:50 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1529
+joulukuuta 07, 2021 2:06:53 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1535
+joulukuuta 07, 2021 2:06:55 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1541
+[0m2021.12.07 14:07:13 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 14:07:13 INFO  time: compiled demo in 0.57s[0m
+[0m2021.12.07 14:07:24 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 14:07:24 INFO  time: compiled demo in 0.58s[0m
+joulukuuta 07, 2021 2:07:34 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1618
+joulukuuta 07, 2021 2:08:42 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1624
+joulukuuta 07, 2021 2:08:43 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1629
+[0m2021.12.07 14:08:54 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 14:08:54 INFO  time: compiled demo in 0.56s[0m
+joulukuuta 07, 2021 2:08:56 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1651
+joulukuuta 07, 2021 2:08:57 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1657
+joulukuuta 07, 2021 2:09:00 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1664
+[0m2021.12.07 14:09:16 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 14:09:16 INFO  time: compiled demo in 0.55s[0m
+[0m2021.12.07 14:10:53 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 14:10:53 INFO  time: compiled demo in 0.54s[0m
+[0m2021.12.07 14:11:32 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 14:11:32 INFO  time: compiled demo in 0.57s[0m
+[0m2021.12.07 14:12:35 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 14:12:35 INFO  time: compiled demo in 0.54s[0m
+joulukuuta 07, 2021 2:12:46 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1899
+[0m2021.12.07 14:13:18 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 14:13:18 INFO  time: compiled demo in 0.5s[0m
+joulukuuta 07, 2021 2:13:34 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1968
+joulukuuta 07, 2021 2:13:41 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1974
+joulukuuta 07, 2021 2:14:00 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1983
+joulukuuta 07, 2021 2:14:21 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1997
+[0m2021.12.07 14:14:58 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 14:14:58 INFO  time: compiled demo in 0.71s[0m
+joulukuuta 07, 2021 2:15:11 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2168
+joulukuuta 07, 2021 2:15:40 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2177
+joulukuuta 07, 2021 2:15:44 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2183
+joulukuuta 07, 2021 2:15:47 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2189
+joulukuuta 07, 2021 2:15:52 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2195
+[0m2021.12.07 14:16:04 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 14:16:04 INFO  time: compiled demo in 0.68s[0m
+joulukuuta 07, 2021 2:16:10 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2216
+[0m2021.12.07 14:16:24 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 14:16:24 INFO  time: compiled demo in 0.55s[0m
+joulukuuta 07, 2021 2:17:05 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2251
+joulukuuta 07, 2021 2:17:34 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2261
+joulukuuta 07, 2021 2:18:30 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2273
+[0m2021.12.07 14:18:45 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 14:18:45 INFO  time: compiled demo in 0.49s[0m
+joulukuuta 07, 2021 2:19:16 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2305
+joulukuuta 07, 2021 2:19:29 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2309
+joulukuuta 07, 2021 2:19:54 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2315
+joulukuuta 07, 2021 2:20:01 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2321
+joulukuuta 07, 2021 2:20:17 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2330
+[0m2021.12.07 14:20:29 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 14:20:29 INFO  time: compiled demo in 0.51s[0m
+[0m2021.12.07 14:20:45 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 14:20:45 INFO  time: compiled demo in 0.51s[0m
+joulukuuta 07, 2021 2:21:11 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2358
+[0m2021.12.07 14:21:24 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 14:21:24 INFO  time: compiled demo in 0.58s[0m
+joulukuuta 07, 2021 2:21:37 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2374
+joulukuuta 07, 2021 2:21:44 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2380
+joulukuuta 07, 2021 2:21:56 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2386
+joulukuuta 07, 2021 2:22:15 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2393
+joulukuuta 07, 2021 2:22:31 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2399
+[0m2021.12.07 14:23:16 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 14:23:16 INFO  time: compiled demo in 0.55s[0m
+[0m2021.12.07 14:23:16 INFO  compiling demo (2 scala sources)[0m
+[0m2021.12.07 14:23:16 INFO  time: compiled demo in 0.24s[0m
+joulukuuta 07, 2021 2:23:31 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2597
+[0m2021.12.07 14:23:37 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 14:23:37 INFO  time: compiled demo in 0.56s[0m
+joulukuuta 07, 2021 2:23:56 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2619
+[0m2021.12.07 14:24:15 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 14:24:15 INFO  time: compiled demo in 0.51s[0m
+[0m2021.12.07 14:24:15 INFO  compiling demo (7 scala sources)[0m
+[0m2021.12.07 14:24:15 INFO  time: compiled demo in 0.48s[0m
+joulukuuta 07, 2021 2:24:18 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2699
+[0m2021.12.07 14:24:47 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 14:24:47 INFO  time: compiled demo in 0.56s[0m
+joulukuuta 07, 2021 2:24:48 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2752
+[0m2021.12.07 14:24:52 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 14:24:52 INFO  time: compiled demo in 0.51s[0m
+[0m2021.12.07 14:24:52 INFO  compiling demo (2 scala sources)[0m
+[0m2021.12.07 14:24:52 INFO  time: compiled demo in 0.26s[0m
+joulukuuta 07, 2021 2:24:54 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2771
+[0m2021.12.07 14:24:58 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 14:24:58 INFO  time: compiled demo in 0.53s[0m
+[0m2021.12.07 14:24:58 INFO  compiling demo (2 scala sources)[0m
+[0m2021.12.07 14:24:58 INFO  time: compiled demo in 0.23s[0m
+joulukuuta 07, 2021 2:25:48 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2793
+[0m2021.12.07 14:25:52 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 14:25:52 INFO  time: compiled demo in 0.54s[0m
+[0m2021.12.07 14:26:25 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 14:26:25 INFO  time: compiled demo in 0.54s[0m
+joulukuuta 07, 2021 2:26:26 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2826
+[0m2021.12.07 14:26:40 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 14:26:40 INFO  time: compiled demo in 0.65s[0m
+[0m2021.12.07 14:26:49 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 14:26:49 INFO  time: compiled demo in 0.49s[0m
+[0m2021.12.07 14:28:00 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 14:28:00 INFO  time: compiled demo in 0.49s[0m
+[0m2021.12.07 14:29:24 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 14:29:24 INFO  time: compiled demo in 0.49s[0m
+[0m2021.12.07 14:29:38 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 14:29:38 INFO  time: compiled demo in 0.49s[0m
+[0m2021.12.07 14:30:16 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 14:30:16 INFO  time: compiled demo in 0.49s[0m
+[0m2021.12.07 14:30:22 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 14:30:22 INFO  time: compiled demo in 0.52s[0m
+[0m2021.12.07 14:30:32 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 14:30:32 INFO  time: compiled demo in 0.5s[0m
+[0m2021.12.07 14:30:50 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 14:30:50 INFO  time: compiled demo in 0.51s[0m
+[0m2021.12.07 14:30:58 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 14:30:58 INFO  time: compiled demo in 0.5s[0m
+[0m2021.12.07 14:31:09 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 14:31:09 INFO  time: compiled demo in 0.53s[0m
+joulukuuta 07, 2021 2:31:39 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3197
+joulukuuta 07, 2021 2:31:42 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3202
+[0m2021.12.07 14:31:46 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 14:31:46 INFO  time: compiled demo in 0.66s[0m
+[0m2021.12.07 14:32:01 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 14:32:01 INFO  time: compiled demo in 0.53s[0m
+[0m2021.12.07 14:32:25 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 14:32:25 INFO  time: compiled demo in 0.49s[0m
+[0m2021.12.07 14:33:58 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 14:33:58 INFO  time: compiled demo in 0.49s[0m
+[0m2021.12.07 14:33:58 INFO  compiling demo (2 scala sources)[0m
+[0m2021.12.07 14:33:58 INFO  time: compiled demo in 0.23s[0m
+[0m2021.12.07 14:34:37 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 14:34:37 INFO  time: compiled demo in 0.5s[0m
+joulukuuta 07, 2021 2:35:43 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3429
+[0m2021.12.07 14:35:52 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 14:35:52 INFO  time: compiled demo in 0.53s[0m
+[0m2021.12.07 14:36:49 INFO  compiling demo (1 scala source)[0m
+joulukuuta 07, 2021 2:36:49 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3476
+[0m2021.12.07 14:36:49 INFO  time: compiled demo in 0.31s[0m
+joulukuuta 07, 2021 2:36:52 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3483
+joulukuuta 07, 2021 2:36:57 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3494
+joulukuuta 07, 2021 2:37:12 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3543
+joulukuuta 07, 2021 2:37:13 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3549
+joulukuuta 07, 2021 2:37:18 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3569
+joulukuuta 07, 2021 2:37:21 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3577
+joulukuuta 07, 2021 2:37:29 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3588
+joulukuuta 07, 2021 2:37:33 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3596
+something's wrong: no file:///C:/Users/onni/Documents/demo-effect/demo/src/main/scala/fireflies.scala in Array[<error>]RangePosition(file:///C:/Users/onni/Documents/demo-effect/demo/src/main/scala/fireflies.scala, 120, 120, 135)
+something's wrong: no file:///C:/Users/onni/Documents/demo-effect/demo/src/main/scala/fireflies.scala in Array[<error>]RangePosition(file:///C:/Users/onni/Documents/demo-effect/demo/src/main/scala/fireflies.scala, 120, 120, 128)
+something's wrong: no file:///C:/Users/onni/Documents/demo-effect/demo/src/main/scala/fireflies.scala in Array[<error>]RangePosition(file:///C:/Users/onni/Documents/demo-effect/demo/src/main/scala/fireflies.scala, 120, 120, 135)
+something's wrong: no file:///C:/Users/onni/Documents/demo-effect/demo/src/main/scala/fireflies.scala in Array[<error>]RangePosition(file:///C:/Users/onni/Documents/demo-effect/demo/src/main/scala/fireflies.scala, 120, 120, 128)
+something's wrong: no file:///C:/Users/onni/Documents/demo-effect/demo/src/main/scala/fireflies.scala in Array[<error>]RangePosition(file:///C:/Users/onni/Documents/demo-effect/demo/src/main/scala/fireflies.scala, 120, 120, 129)
+something's wrong: no file:///C:/Users/onni/Documents/demo-effect/demo/src/main/scala/fireflies.scala in Array[<error>]RangePosition(file:///C:/Users/onni/Documents/demo-effect/demo/src/main/scala/fireflies.scala, 120, 120, 130)
+something's wrong: no file:///C:/Users/onni/Documents/demo-effect/demo/src/main/scala/fireflies.scala in Array[<error>]RangePosition(file:///C:/Users/onni/Documents/demo-effect/demo/src/main/scala/fireflies.scala, 120, 120, 131)
+something's wrong: no file:///C:/Users/onni/Documents/demo-effect/demo/src/main/scala/fireflies.scala in Array[<error>]RangePosition(file:///C:/Users/onni/Documents/demo-effect/demo/src/main/scala/fireflies.scala, 120, 120, 132)
+something's wrong: no file:///C:/Users/onni/Documents/demo-effect/demo/src/main/scala/fireflies.scala in Array[Pixel3]RangePosition(file:///C:/Users/onni/Documents/demo-effect/demo/src/main/scala/fireflies.scala, 120, 120, 133)
+something's wrong: no file:///C:/Users/onni/Documents/demo-effect/demo/src/main/scala/fireflies.scala in Array[Pixel3]RangePosition(file:///C:/Users/onni/Documents/demo-effect/demo/src/main/scala/fireflies.scala, 120, 120, 133)
+something's wrong: no file:///C:/Users/onni/Documents/demo-effect/demo/src/main/scala/fireflies.scala in Array[Pixel3]RangePosition(file:///C:/Users/onni/Documents/demo-effect/demo/src/main/scala/fireflies.scala, 120, 120, 133)
+joulukuuta 07, 2021 2:37:57 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3752
+joulukuuta 07, 2021 2:38:03 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3765
+joulukuuta 07, 2021 2:38:58 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3920
+joulukuuta 07, 2021 2:39:09 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3936
+[0m2021.12.07 14:39:11 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 14:39:11 INFO  time: compiled demo in 0.45s[0m
+joulukuuta 07, 2021 2:39:33 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3961
+joulukuuta 07, 2021 2:39:45 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3974
+[0m2021.12.07 14:40:17 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 14:40:17 INFO  time: compiled demo in 0.44s[0m
+[0m2021.12.07 14:40:35 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 14:40:35 INFO  time: compiled demo in 0.44s[0m
+joulukuuta 07, 2021 2:41:04 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4104
+joulukuuta 07, 2021 2:41:06 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4110
+joulukuuta 07, 2021 2:41:12 IP. scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+joulukuuta 07, 2021 2:41:12 IP. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:419)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:136)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:109)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:98)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:963)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:811)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:23)
+
+[0m2021.12.07 14:44:02 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 14:44:02 INFO  time: compiled demo in 0.47s[0m
+[0m2021.12.07 14:45:15 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 14:45:15 INFO  time: compiled demo in 0.61s[0m
+[0m2021.12.07 14:45:24 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 14:45:24 INFO  time: compiled demo in 0.5s[0m
+joulukuuta 07, 2021 2:45:43 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4713
+joulukuuta 07, 2021 2:45:46 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4719
+[0m2021.12.07 14:45:58 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 14:45:58 INFO  time: compiled demo in 0.47s[0m
+[0m2021.12.07 14:46:03 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 14:46:03 INFO  time: compiled demo in 0.46s[0m
+joulukuuta 07, 2021 2:46:05 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4806
+[0m2021.12.07 14:46:31 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 14:46:31 INFO  time: compiled demo in 0.51s[0m
+[0m2021.12.07 14:46:31 INFO  compiling demo (2 scala sources)[0m
+[0m2021.12.07 14:46:31 INFO  time: compiled demo in 0.21s[0m
+[0m2021.12.07 14:46:42 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 14:46:42 INFO  time: compiled demo in 0.5s[0m
+joulukuuta 07, 2021 2:47:50 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4970
+[0m2021.12.07 14:47:59 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 14:47:59 INFO  time: compiled demo in 0.48s[0m
+[0m2021.12.07 14:48:12 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 14:48:12 INFO  time: compiled demo in 0.47s[0m
+joulukuuta 07, 2021 2:48:35 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5012
+[0m2021.12.07 14:48:40 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 14:48:40 INFO  time: compiled demo in 0.53s[0m
+[0m2021.12.07 14:49:47 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 14:49:47 INFO  time: compiled demo in 0.54s[0m
+[0m2021.12.07 14:50:46 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 14:50:46 INFO  time: compiled demo in 0.51s[0m
+[0m2021.12.07 14:55:09 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 14:55:09 INFO  time: compiled demo in 0.52s[0m
+joulukuuta 07, 2021 2:56:09 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5100
+[0m2021.12.07 14:56:54 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 14:56:54 INFO  time: compiled demo in 0.66s[0m
+[0m2021.12.07 14:57:46 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 14:57:46 INFO  time: compiled demo in 0.53s[0m
+joulukuuta 07, 2021 2:58:51 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5342
+[0m2021.12.07 14:58:54 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 14:58:54 INFO  time: compiled demo in 0.52s[0m
+joulukuuta 07, 2021 3:07:07 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5365
+joulukuuta 07, 2021 3:07:40 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5375
+joulukuuta 07, 2021 3:08:00 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5380
+joulukuuta 07, 2021 4:46:01 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5389
+joulukuuta 07, 2021 4:46:07 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5396
+[0m2021.12.07 16:46:58 WARN  no build target for: C:\Users\onni\Documents\demo-effect\demo\lightspeed.scala[0m
+joulukuuta 07, 2021 4:46:58 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5404
+[0m2021.12.07 16:47:02 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 16:47:02 INFO  time: compiled demo in 0.31s[0m
+[0m2021.12.07 16:47:23 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 16:47:23 INFO  time: compiled demo in 0.38s[0m
+joulukuuta 07, 2021 4:47:24 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5455
+joulukuuta 07, 2021 4:47:27 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5464
+[0m2021.12.07 16:47:32 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 16:47:32 INFO  time: compiled demo in 0.33s[0m
+joulukuuta 07, 2021 4:47:33 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5483
+joulukuuta 07, 2021 4:47:40 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5499
+joulukuuta 07, 2021 4:47:48 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5533
+joulukuuta 07, 2021 4:47:56 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5543
+[0m2021.12.07 16:48:06 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 16:48:06 INFO  time: compiled demo in 0.43s[0m
+[0m2021.12.07 16:48:47 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 16:48:47 INFO  time: compiled demo in 0.44s[0m
+[0m2021.12.07 16:49:35 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 16:49:35 INFO  time: compiled demo in 70ms[0m
+[0m2021.12.07 16:49:44 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 16:49:44 INFO  time: compiled demo in 0.43s[0m
+joulukuuta 07, 2021 4:50:10 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5760
+joulukuuta 07, 2021 4:50:17 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5767
+joulukuuta 07, 2021 4:50:20 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5773
+[0m2021.12.07 16:50:54 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 16:50:54 INFO  time: compiled demo in 0.44s[0m
+[0m2021.12.07 16:51:12 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 16:51:12 INFO  time: compiled demo in 0.45s[0m
+[0m2021.12.07 16:52:27 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 16:52:27 INFO  time: compiled demo in 0.56s[0m
+joulukuuta 07, 2021 4:53:24 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6047
+joulukuuta 07, 2021 4:53:25 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6053
+joulukuuta 07, 2021 4:53:33 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6060
+joulukuuta 07, 2021 4:53:40 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6067
+[0m2021.12.07 16:54:13 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 16:54:13 INFO  time: compiled demo in 75ms[0m
+something's wrong: no file:///C:/Users/onni/Documents/demo-effect/demo/src/main/scala/lightspeed.scala in Array[Pixel3]RangePosition(file:///C:/Users/onni/Documents/demo-effect/demo/src/main/scala/lightspeed.scala, 123, 123, 137)
+something's wrong: no file:///C:/Users/onni/Documents/demo-effect/demo/src/main/scala/lightspeed.scala in (Pixel3, <error>)RangePosition(file:///C:/Users/onni/Documents/demo-effect/demo/src/main/scala/lightspeed.scala, 129, 129, 145)
+[0m2021.12.07 16:56:09 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 16:56:09 INFO  time: compiled demo in 63ms[0m
+[0m2021.12.07 16:56:13 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 16:56:13 INFO  time: compiled demo in 88ms[0m
+[0m2021.12.07 16:56:19 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 16:56:19 INFO  time: compiled demo in 75ms[0m
+[0m2021.12.07 16:56:31 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 16:56:31 INFO  time: compiled demo in 78ms[0m
+[0m2021.12.07 16:56:36 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 16:56:36 INFO  time: compiled demo in 0.46s[0m
+[0m2021.12.07 16:56:56 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 16:56:56 INFO  time: compiled demo in 0.45s[0m
+[0m2021.12.07 16:57:10 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 16:57:10 INFO  time: compiled demo in 0.46s[0m
+joulukuuta 07, 2021 4:57:24 IP. scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+joulukuuta 07, 2021 4:57:24 IP. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:419)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:136)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:109)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:98)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:963)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:811)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:23)
+
+[0m2021.12.07 16:58:26 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 16:58:26 INFO  time: compiled demo in 0.48s[0m
+joulukuuta 07, 2021 4:58:37 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6912
+joulukuuta 07, 2021 4:59:07 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6966
+[0m2021.12.07 17:01:27 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 17:01:27 INFO  time: compiled demo in 60ms[0m
+[0m2021.12.07 17:01:30 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 17:01:30 INFO  time: compiled demo in 51ms[0m
+[0m2021.12.07 17:01:44 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 17:01:44 INFO  time: compiled demo in 81ms[0m
+joulukuuta 07, 2021 5:01:53 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7433
+joulukuuta 07, 2021 5:01:59 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7441
+[0m2021.12.07 17:02:05 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 17:02:05 INFO  time: compiled demo in 0.5s[0m
+[0m2021.12.07 17:05:17 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 17:05:17 INFO  time: compiled demo in 0.5s[0m
+[0m2021.12.07 17:06:17 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 17:06:17 INFO  time: compiled demo in 0.62s[0m
+[0m2021.12.07 17:06:31 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 17:06:31 INFO  time: compiled demo in 0.48s[0m
+[0m2021.12.07 17:07:05 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 17:07:05 INFO  time: compiled demo in 0.49s[0m
+joulukuuta 07, 2021 5:07:11 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7932
+[0m2021.12.07 17:07:24 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 17:07:24 INFO  time: compiled demo in 0.51s[0m
+[0m2021.12.07 17:07:24 INFO  compiling demo (2 scala sources)[0m
+[0m2021.12.07 17:07:24 INFO  time: compiled demo in 0.21s[0m
+[0m2021.12.07 17:07:39 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 17:07:39 INFO  time: compiled demo in 0.51s[0m
+joulukuuta 07, 2021 5:08:00 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8091
+joulukuuta 07, 2021 5:08:05 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8097
+joulukuuta 07, 2021 5:08:23 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8102
+joulukuuta 07, 2021 5:08:27 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8113
+joulukuuta 07, 2021 5:08:28 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8119
+joulukuuta 07, 2021 5:08:29 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8127
+[0m2021.12.07 17:08:55 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 17:08:55 INFO  time: compiled demo in 0.5s[0m
+[0m2021.12.07 17:09:15 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 17:09:15 INFO  time: compiled demo in 0.51s[0m
+[0m2021.12.07 17:09:44 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 17:09:44 INFO  time: compiled demo in 0.5s[0m
+[0m2021.12.07 17:09:53 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 17:09:53 INFO  time: compiled demo in 0.61s[0m
+[0m2021.12.07 17:10:10 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 17:10:10 INFO  time: compiled demo in 0.51s[0m
+joulukuuta 07, 2021 5:10:49 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8267
+joulukuuta 07, 2021 5:11:08 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8276
+[0m2021.12.07 17:11:47 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 17:11:47 INFO  time: compiled demo in 0.48s[0m
+[0m2021.12.07 17:12:00 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 17:12:00 INFO  time: compiled demo in 0.49s[0m
+[0m2021.12.07 17:13:19 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 17:13:19 INFO  time: compiled demo in 0.52s[0m
+joulukuuta 07, 2021 5:14:00 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8379
+[0m2021.12.07 17:14:04 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 17:14:04 INFO  time: compiled demo in 0.52s[0m
+[0m2021.12.07 17:14:12 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 17:14:12 INFO  time: compiled demo in 0.51s[0m
+joulukuuta 07, 2021 5:14:25 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8402
+[0m2021.12.07 17:15:02 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 17:15:02 INFO  time: compiled demo in 0.5s[0m
+joulukuuta 07, 2021 5:16:16 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8436
+joulukuuta 07, 2021 5:16:32 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8445
+joulukuuta 07, 2021 5:16:55 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8463
+joulukuuta 07, 2021 5:16:56 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8469
+[0m2021.12.07 17:17:14 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 17:17:14 INFO  time: compiled demo in 0.66s[0m
+[0m2021.12.07 17:17:34 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 17:17:34 INFO  time: compiled demo in 0.52s[0m
+[0m2021.12.07 17:17:48 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 17:17:48 INFO  time: compiled demo in 0.49s[0m
+[0m2021.12.07 17:21:15 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 17:21:15 INFO  time: compiled demo in 77ms[0m
+[0m2021.12.07 17:22:27 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 17:22:27 INFO  time: compiled demo in 57ms[0m
+[0m2021.12.07 17:22:32 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 17:22:32 INFO  time: compiled demo in 0.49s[0m
+[0m2021.12.07 17:22:49 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 17:22:49 INFO  time: compiled demo in 0.49s[0m
+[0m2021.12.07 17:22:58 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 17:22:58 INFO  time: compiled demo in 0.49s[0m
+[0m2021.12.07 17:23:04 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 17:23:04 INFO  time: compiled demo in 0.5s[0m
+[0m2021.12.07 17:23:49 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 17:23:49 INFO  time: compiled demo in 86ms[0m
+[0m2021.12.07 17:24:00 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 17:24:00 INFO  time: compiled demo in 78ms[0m
+[0m2021.12.07 17:24:23 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 17:24:23 INFO  time: compiled demo in 0.5s[0m
+[0m2021.12.07 17:24:57 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 17:24:57 INFO  time: compiled demo in 0.65s[0m
+[0m2021.12.07 17:25:00 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 17:25:00 INFO  time: compiled demo in 0.49s[0m
+[0m2021.12.07 17:25:18 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 17:25:18 INFO  time: compiled demo in 0.49s[0m
+joulukuuta 07, 2021 5:34:47 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9313
+[0m2021.12.07 17:35:09 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 17:35:09 INFO  time: compiled demo in 0.37s[0m
+[0m2021.12.07 17:37:02 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 17:37:02 INFO  time: compiled demo in 70ms[0m
+[0m2021.12.07 17:37:16 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 17:37:16 INFO  time: compiled demo in 0.4s[0m
+joulukuuta 07, 2021 5:37:27 IP. scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+joulukuuta 07, 2021 5:37:27 IP. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:419)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:136)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:109)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:98)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:963)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:811)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:23)
+
+[0m2021.12.07 17:37:41 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 17:37:41 INFO  time: compiled demo in 0.4s[0m
+joulukuuta 07, 2021 5:37:44 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9738
+joulukuuta 07, 2021 5:37:55 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9747
+joulukuuta 07, 2021 5:38:00 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9753
+joulukuuta 07, 2021 5:38:12 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9763
+joulukuuta 07, 2021 5:38:18 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9769
+joulukuuta 07, 2021 5:38:20 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9775
+[0m2021.12.07 17:39:52 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 17:39:52 INFO  time: compiled demo in 78ms[0m
+[0m2021.12.07 17:40:04 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 17:40:04 INFO  time: compiled demo in 0.49s[0m
+[0m2021.12.07 17:41:25 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 17:41:25 INFO  time: compiled demo in 0.48s[0m
+joulukuuta 07, 2021 5:44:00 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10021
+[0m2021.12.07 17:44:43 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 17:44:43 INFO  time: compiled demo in 0.47s[0m
+[0m2021.12.07 17:44:43 INFO  compiling demo (4 scala sources)[0m
+[0m2021.12.07 17:44:43 INFO  time: compiled demo in 0.32s[0m
+[0m2021.12.07 17:46:45 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 17:46:45 INFO  time: compiled demo in 0.48s[0m
+[0m2021.12.07 17:47:41 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 17:47:41 INFO  time: compiled demo in 0.48s[0m
+joulukuuta 07, 2021 5:47:48 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10514
+[0m2021.12.07 17:47:55 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 17:47:55 INFO  time: compiled demo in 0.54s[0m
+[0m2021.12.07 17:48:27 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 17:48:27 INFO  time: compiled demo in 0.55s[0m
+[0m2021.12.07 17:49:16 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 17:49:16 INFO  time: compiled demo in 0.54s[0m
+[0m2021.12.07 17:49:28 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 17:49:28 INFO  time: compiled demo in 0.54s[0m
+joulukuuta 07, 2021 5:49:40 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10604
+joulukuuta 07, 2021 5:49:50 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10611
+[0m2021.12.07 17:50:13 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 17:50:13 INFO  time: compiled demo in 0.71s[0m
+[0m2021.12.07 17:50:29 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 17:50:29 INFO  time: compiled demo in 0.59s[0m
+[0m2021.12.07 17:50:44 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 17:50:44 INFO  time: compiled demo in 0.5s[0m
+joulukuuta 07, 2021 5:50:45 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10711
+joulukuuta 07, 2021 5:50:48 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10719
+[0m2021.12.07 17:50:57 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 17:50:57 INFO  time: compiled demo in 0.48s[0m
+joulukuuta 07, 2021 5:51:03 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10750
+joulukuuta 07, 2021 5:51:04 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10757
+joulukuuta 07, 2021 5:51:07 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10763
+[0m2021.12.07 17:51:12 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 17:51:12 INFO  time: compiled demo in 0.52s[0m
+joulukuuta 07, 2021 5:51:20 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10784
+[0m2021.12.07 17:52:22 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 17:52:22 INFO  time: compiled demo in 0.51s[0m
+joulukuuta 07, 2021 5:52:44 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10810
+[0m2021.12.07 17:53:05 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 17:53:05 INFO  time: compiled demo in 0.41s[0m
+joulukuuta 07, 2021 5:53:22 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10868
+joulukuuta 07, 2021 5:53:28 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10874
+joulukuuta 07, 2021 5:53:29 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10880
+joulukuuta 07, 2021 5:53:30 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10887
+joulukuuta 07, 2021 5:53:31 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10893
+joulukuuta 07, 2021 5:53:48 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10902
+[0m2021.12.07 17:57:50 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 17:57:50 INFO  time: compiled demo in 0.64s[0m
+[0m2021.12.07 17:58:15 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 17:58:15 INFO  time: compiled demo in 0.51s[0m
+joulukuuta 07, 2021 5:58:40 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11109
+joulukuuta 07, 2021 5:58:44 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11113
+joulukuuta 07, 2021 5:59:07 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11121
+joulukuuta 07, 2021 5:59:18 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11126
+joulukuuta 07, 2021 5:59:58 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11139
+joulukuuta 07, 2021 6:00:06 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11150
+[0m2021.12.07 18:01:06 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 18:01:06 INFO  time: compiled demo in 72ms[0m
+joulukuuta 07, 2021 6:01:21 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11322
+joulukuuta 07, 2021 6:01:29 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11331
+joulukuuta 07, 2021 6:01:44 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11349
+joulukuuta 07, 2021 6:01:57 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11360
+[0m2021.12.07 18:03:19 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 18:03:19 INFO  time: compiled demo in 81ms[0m
+[0m2021.12.07 18:03:23 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 18:03:23 INFO  time: compiled demo in 0.49s[0m
+joulukuuta 07, 2021 6:03:24 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11723
+joulukuuta 07, 2021 6:03:35 IP. scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+joulukuuta 07, 2021 6:03:35 IP. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:419)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:136)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:109)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:98)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:963)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:811)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:23)
+
+[0m2021.12.07 18:04:34 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 18:04:34 INFO  time: compiled demo in 0.47s[0m
+joulukuuta 07, 2021 6:04:50 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11915
+[0m2021.12.07 18:04:54 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 18:04:54 INFO  time: compiled demo in 0.52s[0m
+joulukuuta 07, 2021 6:05:11 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11934
+joulukuuta 07, 2021 6:05:23 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11940
+joulukuuta 07, 2021 6:05:41 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11946
+[0m2021.12.07 18:05:47 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 18:05:47 INFO  time: compiled demo in 0.49s[0m
+[0m2021.12.07 18:05:51 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 18:05:51 INFO  time: compiled demo in 0.47s[0m
+joulukuuta 07, 2021 6:05:52 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11970
+[0m2021.12.07 18:05:56 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 18:05:56 INFO  time: compiled demo in 0.52s[0m
+joulukuuta 07, 2021 6:06:00 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11993
+[0m2021.12.07 18:06:05 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 18:06:05 INFO  time: compiled demo in 0.53s[0m
+joulukuuta 07, 2021 6:06:13 IP. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12016
+[0m2021.12.07 18:17:23 INFO  compiling demo (1 scala source)[0m
+[0m2021.12.07 18:17:23 INFO  time: compiled demo in 0.5s[0m
+[0m2021.12.07 18:17:25 INFO  shutting down Metals[0m
+[0m2021.12.07 18:17:25 INFO  Shut down connection with build server.[0m
+[0m2021.12.07 18:17:25 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
